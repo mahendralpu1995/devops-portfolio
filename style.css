@@ -1,39 +1,77 @@
 body {
-background: #0f172a;
-color: white;
-font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
 }
 
+/* Hero Section */
 .hero {
-background: linear-gradient(135deg, #2563eb, #7c3aed);
-padding: 120px 20px;
-color: white;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    padding: 120px 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
+/* 3D Cards */
 .card {
-background: #1e293b;
-color: white;
-border: none;
-border-radius: 15px;
-transition: 0.3s;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+
+    transform-style: preserve-3d;
+    transition: all 0.4s ease;
+
+    box-shadow:
+        0 10px 20px rgba(0,0,0,0.3),
+        0 6px 6px rgba(0,0,0,0.2);
 }
 
 .card:hover {
-transform: translateY(-8px);
+    transform:
+        perspective(1000px)
+        rotateX(10deg)
+        rotateY(-10deg)
+        translateY(-15px);
+
+    box-shadow:
+        0 25px 40px rgba(0,0,0,0.5);
 }
 
+/* Section Headings */
 h2 {
-color: #60a5fa;
+    color: #60a5fa;
+    margin-bottom: 20px;
 }
 
-footer {
-background: #020617;
-padding: 30px;
-color: white;
-}
-
+/* Skills */
 .badge {
-font-size: 14px;
-padding: 10px 15px;
+    font-size: 15px;
+    padding: 12px 18px;
+    margin: 5px;
+    transition: 0.3s;
 }
 
+.badge:hover {
+    transform: scale(1.1);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    margin-top: 50px;
+}
