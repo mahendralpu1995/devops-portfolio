@@ -6,7 +6,7 @@ body {
 
 /* Hero */
 .hero {
-    background: linear-gradient(135deg, #0f172a, #1e40af);
+    background: linear-gradient(135deg, #0f172a, #6e727e);
     color: white;
     padding: 100px 20px;
 }
@@ -27,7 +27,7 @@ body {
 
 /* Headings */
 h2 {
-    color: #1d4ed8;
+    color: #666c7d;
     font-weight: bold;
 }
 
