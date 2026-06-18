@@ -7,222 +7,214 @@
     <title>Mahendra Kumar Swami | DevOps Engineer</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Mahendra.devops</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto gap-lg-3">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certification">Certification</a></li>
+                    <li class="nav-item"><a class="nav-link contact-pill" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
-    <section class="hero">
+    <header class="hero" id="home">
+        <div class="hero-blur hero-blur-one"></div>
+        <div class="hero-blur hero-blur-two"></div>
 
-        <div class="container text-center">
+        <div class="container">
+            <div class="row align-items-center min-vh-100 gy-5">
+                <div class="col-lg-7 text-center text-lg-start">
+                    <span class="status-badge">Available for Entry-Level DevOps Roles</span>
 
-            <h1 class="display-3 fw-bold floating">
-                Mahendra Kumar Swami
-            </h1>
+                    <h1 class="display-3 fw-bold floating mt-4">
+                        Mahendra Kumar Swami
+                    </h1>
 
-            <h3 class="mt-3">
-                Aspiring DevOps Engineer
-            </h3>
+                    <h3 class="mt-3">
+                        Aspiring DevOps Engineer
+                    </h3>
 
-            <p class="lead mt-3">
-                AWS • Terraform • Docker • Kubernetes • Git • GitHub Actions
-            </p>
+                    <p class="lead mt-3 hero-text">
+                        I build cloud-ready infrastructure with AWS, Terraform, Docker, Kubernetes,
+                        Git and GitHub Actions.
+                    </p>
 
-            <div class="mt-4">
+                    <div class="hero-actions mt-4">
+                        <a href="https://github.com/mahendralpu1995" target="_blank" class="btn btn-light btn-lg">
+                            View GitHub
+                        </a>
 
-                <a href="https://github.com/mahendralpu1995"
-                    target="_blank"
-                    class="btn btn-light btn-lg me-2">
-                    GitHub
-                </a>
-
-                <a href="#projects"
-                    class="btn btn-success btn-lg">
-                    View Projects
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- About Section -->
-    <section class="container mt-5">
-
-        <div class="card">
-
-            <div class="card-body p-4">
-
-                <h2>About Me</h2>
-
-                <p class="mt-3">
-                    Aspiring DevOps Engineer with hands-on experience in AWS,
-                    Terraform, Docker, Kubernetes, Linux, Git and GitHub Actions.
-
-                    Passionate about Cloud Computing, Infrastructure as Code,
-                    Automation, CI/CD Pipelines and Container Orchestration.
-
-                    Seeking an entry-level DevOps Engineer role where I can
-                    contribute to building scalable, secure and automated cloud
-                    infrastructure solutions.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Skills Section -->
-    <section class="container mt-5">
-
-        <h2>Technical Skills</h2>
-
-        <div class="mt-4">
-
-            <span class="badge bg-primary">AWS</span>
-            <span class="badge bg-success">Terraform</span>
-            <span class="badge bg-warning text-dark">Docker</span>
-            <span class="badge bg-danger">Kubernetes</span>
-            <span class="badge bg-info text-dark">Linux</span>
-            <span class="badge bg-secondary">Git</span>
-            <span class="badge bg-dark">GitHub Actions</span>
-
-        </div>
-
-    </section>
-
-    <!-- Projects Section -->
-    <section class="container mt-5" id="projects">
-
-        <h2>Projects</h2>
-
-        <div class="row mt-4">
-
-            <!-- Project 1 -->
-            <div class="col-md-4 mb-4">
-
-                <div class="card h-100">
-
-                    <div class="card-body">
-
-                        <h4 class="text-info">
-                            AWS S3 Portfolio Deployment
-                        </h4>
-
-                        <p>
-                            Built and hosted a static portfolio website using
-                            AWS S3 Static Website Hosting.
-                        </p>
-
-                        <p>
-                            Automated deployment through GitHub Actions CI/CD
-                            pipeline.
-                        </p>
-
+                        <a href="#projects" class="btn btn-outline-light btn-lg">
+                            Explore Projects
+                        </a>
                     </div>
-
                 </div>
 
-            </div>
+                <div class="col-lg-5">
+                    <div class="terminal-card">
+                        <div class="terminal-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
 
-            <!-- Project 2 -->
-            <div class="col-md-4 mb-4">
+                        <p><span>$</span> whoami</p>
+                        <h4>DevOps Learner</h4>
 
-                <div class="card h-100">
+                        <p><span>$</span> focus</p>
+                        <h4>Cloud • CI/CD • Automation</h4>
 
-                    <div class="card-body">
-
-                        <h4 class="text-warning">
-                            AWS VPC Architecture
-                        </h4>
-
-                        <p>
-                            Designed a VPC with public and private subnets,
-                            route tables, internet gateway and security groups.
-                        </p>
-
+                        <p><span>$</span> current_stack</p>
+                        <div class="terminal-tags">
+                            <span>AWS</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                            <span>Terraform</span>
+                            <span>Linux</span>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <main>
+        <!-- About Section -->
+        <section class="container section-space" id="about">
+            <div class="card feature-card">
+                <div class="card-body p-4 p-md-5">
+                    <span class="section-kicker">About</span>
+                    <h2>About Me</h2>
+
+                    <p class="mt-3 mb-0">
+                        Aspiring DevOps Engineer with hands-on experience in AWS, Terraform, Docker,
+                        Kubernetes, Linux, Git and GitHub Actions. Passionate about Cloud Computing,
+                        Infrastructure as Code, Automation, CI/CD Pipelines and Container Orchestration.
+                        Seeking an entry-level DevOps Engineer role where I can contribute to building
+                        scalable, secure and automated cloud infrastructure solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="container section-space" id="skills">
+            <span class="section-kicker">Toolkit</span>
+            <h2>Technical Skills</h2>
+
+            <div class="skills-grid mt-4">
+                <span>AWS</span>
+                <span>Terraform</span>
+                <span>Docker</span>
+                <span>Kubernetes</span>
+                <span>Linux</span>
+                <span>Git</span>
+                <span>GitHub Actions</span>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="container section-space" id="projects">
+            <span class="section-kicker">Work</span>
+            <h2>Projects</h2>
+
+            <div class="row mt-4 g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card project-card h-100">
+                        <div class="card-body">
+                            <div class="project-icon">☁️</div>
+                            <h4>AWS S3 Portfolio Deployment</h4>
+
+                            <p>
+                                Built and hosted a static portfolio website using AWS S3 Static Website Hosting.
+                            </p>
+
+                            <p>
+                                Automated deployment through GitHub Actions CI/CD pipeline.
+                            </p>
+                        </div>
+                    </article>
                 </div>
 
-            </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card project-card h-100">
+                        <div class="card-body">
+                            <div class="project-icon">🌐</div>
+                            <h4>AWS VPC Architecture</h4>
 
-            <!-- Project 3 -->
-            <div class="col-md-4 mb-4">
-
-                <div class="card h-100">
-
-                    <div class="card-body">
-
-                        <h4 class="text-success">
-                            Terraform Infrastructure Automation
-                        </h4>
-
-                        <p>
-                            Provisioned AWS resources using Terraform and
-                            Infrastructure as Code best practices.
-                        </p>
-
-                    </div>
-
+                            <p>
+                                Designed a VPC with public and private subnets, route tables,
+                                internet gateway and security groups.
+                            </p>
+                        </div>
+                    </article>
                 </div>
 
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card project-card h-100">
+                        <div class="card-body">
+                            <div class="project-icon">⚙️</div>
+                            <h4>Terraform Infrastructure Automation</h4>
+
+                            <p>
+                                Provisioned AWS resources using Terraform and Infrastructure as Code best practices.
+                            </p>
+                        </div>
+                    </article>
+                </div>
             </div>
+        </section>
 
-        </div>
+        <!-- Certifications -->
+        <section class="container section-space" id="certification">
+            <div class="card feature-card">
+                <div class="card-body p-4 p-md-5">
+                    <span class="section-kicker">Achievement</span>
+                    <h2>Certification</h2>
 
-    </section>
-
-    <!-- Certifications -->
-    <section class="container mt-5">
-
-        <div class="card">
-
-            <div class="card-body p-4">
-
-                <h2>Certification</h2>
-
-                <p class="mt-3">
-                    Cloud with Devops from CETPA infotech Pvt. Ltd.
-                </p>
-
+                    <p class="mt-3 mb-0">
+                        Cloud with DevOps from CETPA Infotech Pvt. Ltd.
+                    </p>
+                </div>
             </div>
-
-        </div>
-
-    </section>
+        </section>
+    </main>
 
     <!-- Contact -->
-    <footer>
-
+    <footer id="contact">
         <div class="container text-center">
-
+            <span class="section-kicker">Let's Connect</span>
             <h2>Contact</h2>
 
-            <p class="mt-3">
-                📧 Email: mahendralpu1995@gmail.com
-            </p>
-
-            <p>
-                💻 GitHub:
-                <a href="https://github.com/mahendralpu1995"
-                    class="text-white">
-                    github.com/mahendralpu1995
-                </a>
-            </p>
-
-            <p>
-                📱 Phone: +91-7062633939
-            </p>
-
+            <div class="contact-links mt-4">
+                <a href="mailto:mahendralpu1995@gmail.com">📧 mahendralpu1995@gmail.com</a>
+                <a href="https://github.com/mahendralpu1995" target="_blank">💻 github.com/mahendralpu1995</a>
+                <a href="tel:+917062633939">📱 +91-7062633939</a>
+            </div>
         </div>
-
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
 </html>
+
